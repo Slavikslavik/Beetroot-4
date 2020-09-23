@@ -1,0 +1,59 @@
+body {
+    background-color: skyblue;
+    font-size: 20px;
+}
+
+.page_header {
+    background-image: url(./assets/img/header_background.jpg);
+    border: 4px solid plum;
+    padding-left: 10px;
+}
+
+.page_header >h1{
+    color: indianred;
+}
+.page_header >h1::first-letter{
+    font-size: 45px;
+    color: cadetblue;
+
+}
+
+#my_cv > a {
+    color: rgb(43, 220, 226);
+
+}
+/* ссылки в шапке без подчеркивания */
+.navigation  a  {
+    text-decoration: none;
+    color: darkcyan;
+}
+/* все ссылки при наведении увеличиваются*/
+ a:hover {
+    font-size: 25px;
+}
+a:visited{
+    color: burlywood;
+}
+.contacts{
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 30px;
+    background-color: hotpink;
+}
+
+.form   {
+    border: 2px solid blue;
+    padding: 10px;
+    margin-top: 20px;
+    width: 30%;
+
+}
+.form_fieldset {
+    height: 200;
+
+}
+/* form button color attribute*/
+[type="submit"] {
+    color: rosybrown;
+    background-color: seagreen;
+}
